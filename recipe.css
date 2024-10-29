@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F3E5D8;
+}
+
+.container {
+    background-color: #FFFFFF;
+    margin: 40px auto;
+    padding: 40px;
+    width: 50%;
+}
+
+h1 {
+    font-family: Outfit, Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+p,
+ul,
+li {
+    font-family: Outfit, Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.image-omelette {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.preparation_list {
+    background-color: #FFF7FC;
+    padding: 5px 20px;
+    border-radius: 10px;
+
+}
+
+.preparation_list p {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #B990A0;
+}
+
+.preparation_list ul li {
+    margin: 0px 0px 20px 0px;
+}
+
+.preparation_list span {
+    font-weight: 600;
+    margin: 0px 0px 0px 20px;
+}
+
+.ingredient_list h2 {
+    color: #7F4A42;
+    font-family: Outfit, Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.ingredient_list ul li {
+    margin: 0px 0px 20px 0px;
+}
+
+.ingredient_list span {
+    margin: 0px 0px 0px 20px;
+}
+
+.instruction_list {
+    margin: 20px 0;
+}
+
+.instruction_list h2 {
+    color: #7F4A42;
+    font-family: Outfit, Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.instruction_list ol {
+    padding-left: 20px;
+}
+
+.instruction_list ol li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    line-height: 2;
+}
+
+.instruction_list span {
+    margin: 0px 0px 0px 20px;
+    font-weight: bold;
+    color: #4D2C20;
+}
+.nutrition_div h2{
+    color: #7F4A42;
+    font-family: Outfit, Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.nutrition_facts {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+}
+
+th, td{
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+}
+td:first-child{
+    margin-left: 50px;
+}
+td:last-child{
+    color: #7F4A42;
+    font-weight: bold;
+}
+
+@media (max-width:425px) {
+    .container {
+        background-color: #FFFFFF;
+        margin: 20px auto;
+        padding: 20px;
+        width: 50%;
+    }
+    h1 {
+        font-family: Outfit, Georgia, 'Times New Roman', Times, serif;
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+    h2{
+        font-size: 1.5em
+    }
+    
+    p,
+    ul,
+    li {
+        font-family: Outfit, Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    
+}
+
+@media (max-width:320px) {
+    .container {
+        background-color: #FFFFFF;
+        margin: 10px auto;
+        padding: 10px;
+        width: 50%;
+    }
+    h1 {
+        font-family: Outfit, Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;
+        font-weight: 700;
+    }
+
+    h2{
+        font-size: 0em
+    }
+    
+    p,
+    ul,
+    li {
+        font-family: Outfit, Georgia, 'Times New Roman', Times, serif;
+        font-size: 0.5em;
+        font-weight: 400;
+    }
+
+    
+}

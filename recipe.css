@@ -20,9 +20,7 @@ h1 {
     font-weight: 700;
 }
 
-p,
-ul,
-li {
+p {
     font-family: Outfit, Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2em;
     font-weight: 400;
@@ -40,7 +38,7 @@ li {
 
 }
 
-.preparation_list p {
+.preparation_list h3 {
     font-size: 1.5em;
     font-weight: 600;
     color: #B990A0;
@@ -55,7 +53,7 @@ li {
     margin: 0px 0px 0px 20px;
 }
 
-.ingredient_list h2 {
+.ingredient_list h3 {
     color: #7F4A42;
     font-family: Outfit, Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
@@ -68,6 +66,7 @@ li {
 
 .ingredient_list span {
     margin: 0px 0px 0px 20px;
+    font-size: 1em;
 }
 
 .instruction_list {
@@ -96,7 +95,7 @@ li {
     font-weight: bold;
     color: #4D2C20;
 }
-.nutrition_div h2{
+.nutrition_div h3{
     color: #7F4A42;
     font-family: Outfit, Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
@@ -153,7 +152,7 @@ td:last-child{
     
 }
 
-@media (max-width:320px) {
+@media (min-width:320px) {
     .container {
         background-color: #FFFFFF;
         margin: 10px auto;
@@ -167,16 +166,18 @@ td:last-child{
     }
 
     h2{
-        font-size: 0em
+        font-size: 1em
     }
     
     p,
     ul,
     li {
         font-family: Outfit, Georgia, 'Times New Roman', Times, serif;
-        font-size: 0.5em;
+        font-size: 0.8em;
         font-weight: 400;
     }
 
-    
+    table{
+
+    }
 }
